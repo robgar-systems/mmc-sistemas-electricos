@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="MMC Sistemas Eléctricos de Potencia - Especialistas en diseño, instalación y mantenimiento de proyectos de ingeniería eléctrica en media y baja tensión.">
+    <meta name="keywords"
+        content="ingeniería eléctrica, instalaciones eléctricas, mantenimiento eléctrico, CFE, proyectos eléctricos">
+
+    <!-- Preconnect para mejorar rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fuentes de Google -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="/assets/images/ico-web.ico" type="image/x-icon">
+    <title>MMC Sistemas Eléctricos de Potencia | Soluciones Eléctricas Inteligentes</title>
+</head>
+
+<body>
+    <!-- ========================================
+         TOP BAR - Información de contacto rápida
+         ======================================== -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <a href="mailto:mccsistemaselectricos@outlook.com" class="info-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="m2 7 10 6 10-6" />
+                        </svg>
+                        <span>mccsistemaselectricos@outlook.com</span>
+                    </a>
+                    <a href="tel:+525569067198" class="info-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <span>55 6906 7198</span>
+                    </a>
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="Síguenos en Facebook" aria-label="Facebook">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" title="Síguenos en Instagram" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         HEADER - Navegación principal
+         ======================================== -->
+    <header id="header" role="banner">
+        <nav role="navigation" aria-label="Navegación principal">
+            <div class="container">
+                <div class="nav-content">
+                    <!-- Logo de la empresa -->
+                    <div class="logo">
+                        <div class="logo-text">
+                            <h2>MMC Sistemas Eléctricos</h2>
+                            <p class="logo-subtitle">de Potencia S.A. de C.V.</p>
+                        </div>
+                    </div>
+
+                    <!-- Enlaces de navegación -->
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                        <li><a href="#normateca" class="nav-link">Normateca</a></li>
+                        <li><a href="#cotizacion" class="nav-link">Cotización</a></li>
+                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+
+                    <!-- Botón de menú móvil -->
+                    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación"
+                        aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================================
+         HERO SECTION - Sección principal
+         ======================================== -->
+    <section id="inicio" class="hero-section">
+        <!-- Efectos visuales de fondo -->
+        <div class="hero-background" aria-hidden="true">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <!-- Badge de innovación -->
+                    <div class="hero-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        Innovación Eléctrica
+                    </div>
+
+                    <!-- Título principal -->
+                    <h1>MMC Sistemas Eléctricos de Potencia S.A de C.V</h1>
+                    <p class="hero-subtitle">Soluciones Eléctricas Inteligentes</p>
+                    <p class="hero-description">
+                        Nos especializamos en el diseño de proyectos de ingeniería eléctrica aérea o subterránea en
+                        media y baja tensión.
+                        Desarrollamos e integramos sistemas de suministro y distribución de energía eléctrica para
+                        aplicaciones domésticas,
+                        comerciales e industriales.
+                    </p>
+
+                    <!-- Botones de acción -->
+                    <div class="hero-buttons">
+                        <a href="#cotizacion" class="btn btn-primary">
+                            Solicitar Cotización
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                        <a href="#servicios" class="btn btn-secondary">
+                            Ver Servicios
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CAROUSEL SECTION - Galería de proyectos
+         ======================================== -->
+    <section class="carousel-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">GALERÍA</div>
+                <h2>Nuestros Proyectos</h2>
+                <p class="section-description">Conoce nuestros trabajos en instalaciones
+                    eléctricas</p>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="carouselTrack">
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide active">
+                            <div class="carousel-image">
+                                <img src="assets/images/proyecto-1.jpg"
+                                    alt="Proyecto de instalación eléctrica comercial" loading="lazy">
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Instalación De Cable Subterráneo AL-XLP-1/0</h3>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide">
+                            <div class="carousel-image">
+                                <img src="assets/images/proyecto-2.jpg" alt="Proyecto industrial de media tensión"
+                                    loading="lazy">
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Proyecto Industrial</h3>
+                                <p>Red de media tensión para parque industrial</p>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide">
+                            <div class="carousel-image">
+                                <img src="assets/images/proyecto-3.jpg" alt="Mantenimiento preventivo de subestación"
+                                    loading="lazy">
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Instalación Ee Equipo Seccionador En Media Tensión</h3>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="carousel-slide">
+                            <div class="carousel-image">
+                                <img src="assets/images/proyecto-4.jpg" alt="Termografía infrarroja de instalaciones"
+                                    loading="lazy">
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Termografía Infrarroja</h3>
+                                <p>Detección temprana de fallas eléctricas</p>
+                            </div>
+                        </div>
+
+                        <!-- Slide 5 -->
+                        <div class="carousel-slide">
+                            <div class="carousel-image">
+                                <img src="assets/images/proyecto-5.jpg" alt="Instalación residencial de alta gama"
+                                    loading="lazy">
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Instalación De Transición Aéreo Subterránea En Media Tensión 23kv</h3>
+                            </div>
+                        </div>
+
+                        <!-- Slide 6 -->
+                        <div class="carousel-slide">
+                            <div class="carousel-image">
+                                <img src="assets/images/proyecto-6.jpg" alt="Obra CFE en construcción" loading="lazy">
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Instalación De Equipo Compacto De Medición En Media Tensión</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles del carrusel -->
+                <button class="carousel-button carousel-button-prev" id="carouselPrev" aria-label="Imagen anterior">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+                <button class="carousel-button carousel-button-next" id="carouselNext" aria-label="Imagen siguiente">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                </button>
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <button class="indicator active" data-slide="0" aria-label="Ir a slide 1"></button>
+                    <button class="indicator" data-slide="1" aria-label="Ir a slide 2"></button>
+                    <button class="indicator" data-slide="2" aria-label="Ir a slide 3"></button>
+                    <button class="indicator" data-slide="3" aria-label="Ir a slide 4"></button>
+                    <button class="indicator" data-slide="4" aria-label="Ir a slide 5"></button>
+                    <button class="indicator" data-slide="5" aria-label="Ir a slide 6"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES SECTION - Servicios ofrecidos
+         ======================================== -->
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <!-- Encabezado de sección -->
+            <div class="section-header">
+                <div class="section-badge">SERVICIOS</div>
+                <h2>"Energía que impulsa. Ingeniería que transforma. Soluciones que trascienden"</h2>
+            </div>
+
+            <!-- Destacado de servicios principales -->
+            <div class="service-highlight">
+                <div class="service-highlight-content">
+                    <h3>Nuestros Servicios Especializados</h3>
+                    <p>
+                        Diseño de proyectos de ingeniería eléctrica aérea o subterránea en media y baja tensión.
+                        Incluimos memoria de cálculos, planos eléctricos en 2D y 3D, desglose de materiales y mano de
+                        obra,
+                        gestoría y trámites ante la Comisión Federal de Electricidad.
+                    </p>
+                    <p>
+                        Nuestro objetivo es desarrollar e integrar sistemas de suministro y distribución de energía
+                        eléctrica para aplicaciones domésticas, comerciales e industriales, incluyendo edificios en
+                        altura, complejos comerciales, parques industriales y logísticos, así como infraestructura en
+                        espacios públicos.
+                    </p>
+                    <p>
+                        Implementamos un diseño con base en la <strong>NOM-001-SEDE-2012</strong>, Código de Red y
+                        Especificaciones de Construcción Aéreas y Subterráneas vigentes de CFE, asegurando que cada
+                        instalación cumpla con los parámetros eléctricos permisibles como regulación de voltaje y
+                        calidad de energía requeridos para su operación.
+                    </p>
+                    <p style="margin-top: 20px; font-weight: 600;">El proyecto eléctrico contempla:</p>
+                    <ul>
+                        <li>Diagrama unifilar y cuadro de cargas</li>
+                        <li>Planos eléctricos en media y baja tensión</li>
+                        <li>Memorias de cálculo en baja y media tensión</li>
+                        <li>Desglose de mano de obra y lista de materiales</li>
+                        <li>Gestoría ante CFE</li>
+                        <li>Dictamen Eléctrico UVIE</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Proceso de atención -->
+            <div class="process-section">
+                <h3>Proceso de Atención</h3>
+                <div class="process-grid">
+                    <div class="process-card">
+                        <h4>Análisis y Diseño Detallado</h4>
+                        <ul>
+                            <li>Análisis exhaustivo de los requisitos eléctricos y especificaciones técnicas</li>
+                            <li>Colaboración directa con los clientes para sistemas eficientes y funcionales</li>
+                            <li>Optimización del consumo energético</li>
+                        </ul>
+                    </div>
+                    <div class="process-card">
+                        <h4>Selección de Equipos y Materiales</h4>
+                        <ul>
+                            <li>Selección de equipos y materiales de alta calidad y normados</li>
+                            <li>Compatibilidad con las necesidades específicas del proyecto</li>
+                            <li>Confiabilidad y durabilidad aseguradas</li>
+                        </ul>
+                    </div>
+                    <div class="process-card">
+                        <h4>Instalación y Puesta en Servicio</h4>
+                        <ul>
+                            <li>Instalación segura por técnicos altamente capacitados</li>
+                            <li>Pruebas y validaciones rigurosas</li>
+                            <li>Arranque del sistema con funcionamiento óptimo desde el inicio</li>
+                        </ul>
+                    </div>
+                    <div class="process-card">
+                        <h4>Mantenimiento y Soporte</h4>
+                        <ul>
+                            <li>Servicio de mantenimiento continuo post-instalación</li>
+                            <li>Soporte técnico especializado</li>
+                            <li>Seguridad y operatividad a largo plazo del sistema eléctrico</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de mantenimiento y pruebas -->
+            <div class="maintenance-section">
+                <h3>Mantenimiento y Pruebas Eléctricas</h3>
+                <div class="maintenance-intro">
+                    <p>
+                        En MMC Sistemas Eléctricos de Potencia S.A. de C.V. contamos con un equipo altamente
+                        especializado en la ejecución de mantenimientos integrales y pruebas eléctricas avanzadas
+                        diseñadas para garantizar la continuidad operativa, seguridad y eficiencia de todo tipo de
+                        instalaciones eléctricas, desde proyectos residenciales, comerciales hasta infraestructura
+                        industrial.
+                    </p>
+                </div>
+
+                <div class="maintenance-grid">
+                    <div class="maintenance-card">
+                        <h4>Mantenimiento Preventivo</h4>
+                        <p>Enfocado en la detección temprana de fallas mediante inspecciones programadas, análisis
+                            térmicos y diagnósticos eléctricos que permiten anticipar riesgos y optimizar el rendimiento
+                            de los equipos.</p>
+                    </div>
+                    <div class="maintenance-card">
+                        <h4>Mantenimiento Correctivo</h4>
+                        <p>Actuando de manera inmediata ante emergencias o anomalías críticas para restablecer el
+                            servicio de forma segura, conforme a las normas vigentes y mejores prácticas del sector.</p>
+                    </div>
+                    <div class="maintenance-card">
+                        <h4>Mantenimiento Predictivo</h4>
+                        <p>Emplea tecnologías especializadas como analizadores de red, medición de armónicos, monitoreo
+                            continuo de variables eléctricas y software de diagnóstico para identificar tendencias de
+                            fallo y evitar paros no programados. Este enfoque permite prolongar la vida útil de
+                            transformadores, tableros, interruptores, conexiones y sistemas de distribución.</p>
+                    </div>
+                    <div class="maintenance-card">
+                        <h4>Limpieza Técnica</h4>
+                        <p>Limpieza técnica especializada para prevenir cortocircuitos por humedad o suciedad en
+                            instalaciones eléctricas.</p>
+                    </div>
+                    <div class="maintenance-card">
+                        <h4>Termografía Infrarroja</h4>
+                        <p>Detección temprana de puntos calientes o sobrecargas mediante cámaras infrarrojas de alta
+                            resolución, minimizando riesgos de incendio o interrupción de servicio.</p>
+                    </div>
+                    <div class="maintenance-card">
+                        <h4>Relación de Transformación (TTR)</h4>
+                        <p>Verifica la precisión de la relación de vueltas entre los devanados primario y secundario,
+                            garantizando el funcionamiento correcto y la confiabilidad del equipo. Comprueba que no
+                            existan cortocircuitos entre espiras, fallas en cambiadores de tomas o conexiones de
+                            boquillas, asegurando que la transformación de voltaje cumpla con la placa de datos, con una
+                            tolerancia típica menor al 0.5%.</p>
+                    </div>
+                    <div class="maintenance-card">
+                        <h4>Pruebas de Resistencia de Aislamiento (Megger)</h4>
+                        <p>Verifica que los aislamientos del transformador bajo prueba cumplen con la resistencia mínima
+                            soportable bajo la operación a la que serán sometidos, así como de comprobar la no
+                            inadecuada conexión entre sus devanados y tierra para avalar un buen diseño del producto y
+                            que no exista defectos en el mismo.</p>
+                    </div>
+                </div>
+
+                <div class="maintenance-footer">
+                    <p>En MMC Sistemas Eléctricos de Potencia S.A. de C.V. transformamos el mantenimiento eléctrico en
+                        una inversión estratégica que impulsa la productividad, confiabilidad y crecimiento de tu
+                        empresa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         NORMATECA SECTION - Normatividad CFE
+         ======================================== -->
+    <section id="normateca" class="normateca-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">NORMATIVIDAD CFE</div>
+                <h2>Atenciones de Obras Menores CFE</h2>
+                <p class="section-description">Gestión completa de trámites y supervisión de obras ante la Comisión
+                    Federal de Electricidad</p>
+            </div>
+
+            <div class="cfe-intro">
+                <p>
+                    Se considerarán SSEEBRA de obra menor aquellas que involucren la instalación de hasta dos
+                    transformadores de distribución que serán propiedad de CFE Distribución, la construcción de hasta
+                    1,000 metros en media tensión de las Redes Generales de Distribución (RGD) o una demanda menor a 1
+                    MW.
+                </p>
+                <p>
+                    Así mismo, se considerarán SSEEBRA de incremento de demanda y modificación de instalaciones de las
+                    RGD, solicitudes de obra menor.
+                </p>
+            </div>
+
+            <!-- Proceso de CFE en 5 fases -->
+            <div class="cfe-process">
+                <div class="phase-card">
+                    <div class="phase-label">FASE 1</div>
+                    <h4>Solicitud SSEEBRA</h4>
+                    <p>Se entrega oficio de presupuesto de obra derivado de la solicitud de servicio de energía
+                        eléctrica bajo el régimen de aportaciones (formato 1), incluyendo proyecto en plano
+                        simplificado.</p>
+                    <ul>
+                        <li>Presentar el proyecto</li>
+                    </ul>
+                </div>
+
+                <div class="phase-card">
+                    <div class="phase-label">FASE 2</div>
+                    <h4>Emisión de Aprobación</h4>
+                    <p>Se emite oficio de aprobación del proyecto presentado ante CFE.</p>
+                </div>
+
+                <div class="phase-card">
+                    <div class="phase-label">FASE 3</div>
+                    <h4>Pago de Aportaciones</h4>
+                    <ul>
+                        <li>Inicio de obras</li>
+                        <li>Designación del supervisor de obra</li>
+                    </ul>
+                </div>
+
+                <div class="phase-card">
+                    <div class="phase-label">FASE 4</div>
+                    <h4>Supervisión de Obras</h4>
+                    <p>Se supervisa la construcción de la obra conforme al proyecto aprobado y se abre registro de
+                        supervisión de obra.</p>
+                    <ul>
+                        <li>Supervisión del Proyecto</li>
+                        <li>Se corrigen las anomalías relevantes observadas por el supervisor de obra de CFE</li>
+                    </ul>
+                </div>
+
+                <div class="phase-card">
+                    <div class="phase-label">FASE 5</div>
+                    <h4>Entrega Recepción</h4>
+                    <p>Se formula y formaliza acta de entrega-recepción y emite oficio para contratación del servicio.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Información de tiempo de atención -->
+            <div class="info-card">
+                <h4>⏱️ Tiempo de Atención</h4>
+                <p>Se establecerán, conforme a los lineamientos emitidos por parte de la Dirección General de CFE
+                    Distribución, 5 y 10 días hábiles como plazos máximos de atención de SSEEBRA que requieran la
+                    construcción de obras menores o mayores respectivamente, y 20 días para las que requieran obtener la
+                    opinión técnica del CENACE.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         QUOTE SECTION - Solicitud de cotización
+         ======================================== -->
+    <section id="cotizacion" class="quote-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">COTIZACIÓN</div>
+                <h2>Solicitar Cotización</h2>
+                <p class="section-description">¿Tienes alguna pregunta? Escríbenos y nos pondremos en contacto contigo
+                    en menos de 24 horas</p>
+            </div>
+
+            <div class="quote-form-container">
+                <form class="quote-form" id="quoteForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Juan Pérez">
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required placeholder="55 1234 5678">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="servicio">Tipo de Servicio *</label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="">Seleccione un servicio</option>
+                            <option value="instalacion">Instalación Eléctrica</option>
+                            <option value="mantenimiento">Mantenimiento Preventivo/Correctivo/Predictivo</option>
+                            <option value="proyecto">Diseño de Proyecto</option>
+                            <option value="cfe">Gestión CFE - Obras Menores</option>
+                            <option value="pruebas">Pruebas Eléctricas</option>
+                            <option value="termografia">Termografía Infrarroja</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Descripción del Proyecto *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required
+                            placeholder="Describe tu proyecto y necesidades específicas..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Enviar por WhatsApp
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT SECTION - Información de contacto
+         ======================================== -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">CONTACTO</div>
+                <h2>¡Gracias!</h2>
+                <p class="section-description">¿Tienes alguna pregunta? Escríbenos</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="m2 7 10 6 10-6" />
+                        </svg>
+                    </div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:mccsistemaselectricos@outlook.com">mccsistemaselectricos@outlook.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                    <h4>Web</h4>
+                    <p>www.mccsep.com.mx</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                    </div>
+                    <h4>Teléfono</h4>
+                    <p><a href="tel:+525569067198">55 6906 7198</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER - Pie de página
+         ======================================== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MMC Sistemas Eléctricos de Potencia</h4>
+                    <p>Soluciones Eléctricas Inteligentes</p>
+                    <p style="margin-top: 16px;">Especialistas en proyectos de ingeniería eléctrica con experiencia en
+                        el sector energético mexicano.</p>
+                    <p style="margin-top: 12px;">Responsable: Ing. Manuel Cortes Hernández</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li>Instalaciones Eléctricas</li>
+                        <li>Mantenimiento Integral</li>
+                        <li>Diseño de Proyectos</li>
+                        <li>Gestión CFE</li>
+                        <li>Pruebas Eléctricas</li>
+                        <li>Termografía Infrarroja</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="mailto:mccsistemaselectricos@outlook.com">mccsistemaselectricos@outlook.com</a>
+                        </li>
+                        <li><a href="tel:+525569067198">55 6906 7198</a></li>
+                        <li>www.mccsep.com.mx</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MMC Sistemas Eléctricos de Potencia S.A. de C.V. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
